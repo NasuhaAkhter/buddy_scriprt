@@ -1,0 +1,48 @@
+{
+  "name": "network",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ace build --production",
+    "start": "node server.js",
+    "dev": "node ace serve --watch"
+  },
+  "devDependencies": {
+    "@adonisjs/assembler": "^5.3.7",
+    "@types/lodash": "^4.14.175",
+    "adonis-preset-ts": "^2.1.0",
+    "pino-pretty": "^4.8.0",
+    "typescript": "^4.4.3",
+    "youch": "^2.2.2",
+    "youch-terminal": "^1.1.1"
+  },
+  "dependencies": {
+    "@adonisjs/auth": "^8.0.9",
+    "@adonisjs/core": "^5.4.0",
+    "@adonisjs/lucid": "^14.2.0",
+    "@adonisjs/mail": "^7.2.4",
+    "@adonisjs/redis": "^7.0.9",
+    "@adonisjs/repl": "^3.1.6",
+    "@adonisjs/session": "^6.1.2",
+    "@adonisjs/shield": "^7.0.6",
+    "@adonisjs/view": "^6.1.1",
+    "@types/socket.io": "^3.0.2",
+    "aws-sdk": "^2.1005.0",
+    "axios": "^0.24.0",
+    "fcm-node": "^1.6.1",
+    "got": "^11.8.2",
+    "link-preview-js": "^2.1.8",
+    "luxon": "^1.28.0",
+    "moment": "^2.24.0",
+    "mysql": "^2.18.1",
+    "node-mailjet": "^3.3.4",
+    "phc-bcrypt": "^1.0.7",
+    "proxy-addr": "^2.0.7",
+    "reflect-metadata": "^0.1.13",
+    "sharp": "^0.29.1",
+    "socket.io": "^3.1.2",
+    "source-map-support": "^0.5.20",
+    "stripe": "^8.181.0",
+    "uuid": "^8.3.2"
+  }
+}
